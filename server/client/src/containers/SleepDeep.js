@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Hero from "../components/hero/hero"
 
-export default class Hotels extends Component {
+export default class SleepDeep extends Component {
   render() {
     return (
       <div>

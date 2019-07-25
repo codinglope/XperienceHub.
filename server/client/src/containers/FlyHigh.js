@@ -3,7 +3,7 @@ import Hero from "../components/hero/hero";
 import FlightsForm from "../components/Flights/FlightsForm";
 import FlightsList from "../components/Flights/FlightsList";
 
-export default class Flights extends Component {
+export default class FlyHigh extends Component {
   state = {
     flightsDataInbound: [],
     flightsDataOutbound: []

@@ -3,9 +3,10 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.css";
 import { Switch,Route } from "react-router-dom";
-import Flights  from "./containers/Flights";
-import Hotels from "./containers/Hotels";
-import Bikes from "./containers/Bikes";
+import FlyHigh  from "./containers/FlyHigh";
+import SleepDeep from "./containers/SleepDeep";
+import ExperienceGuide from "./containers/ExperienceGuide";
+import Hub from "./containers/Hub";
 import Hero from "./components/hero/hero";
 
 function App() {
@@ -14,9 +15,10 @@ function App() {
       <Navbar />
 
       <Switch>
-        <Route exact path="/Flights" component={Flights} />
-        <Route exact path="/Hotels" component={Hotels} />
-        <Route exact path="/Bikes" component={Bikes} />
+        <Route exact path="/FlyHigh" component={FlyHigh} />
+        <Route exact path="/SleepDeep" component={SleepDeep} />
+        <Route exact path="/ExperienceGuide" component={ExperienceGuide} />
+        <Route exact path="/" component={Hub} />
       </Switch>
     </div>
   );

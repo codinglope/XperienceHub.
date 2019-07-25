@@ -59,7 +59,7 @@ app.locals.title = "Express - Generated with IronGenerator";
 const index = require("./routes/index");
 app.use("/", index);
 
-const flights = require("./routes/Flights");
-app.use("/api/Flights", flights);
+const flights = require("./routes/FlyHigh");
+app.use("/api/FlyHigh", flights);
 
 module.exports = app;
