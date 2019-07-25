@@ -21,8 +21,8 @@ export default class FlyHigh extends Component {
       <div>
         <Hero
           videosrc="https://pixabay.com/videos/download/video-10816_medium.mp4"
-          h1="Flights"
-          h2="Choose your flights. Fly high."
+          h1="Change perceptions."
+          h2="Choose the where. Fly high."
         />
 
         <FlightsForm refreshflightsList={this.refreshflightsList} />
