@@ -10,6 +10,8 @@ const CustomNavbar = () => {
       <Navbar.Brand href="/FlyHigh">FlyHigh</Navbar.Brand>
       <Navbar.Brand href="/SleepDeep">SleepDeep</Navbar.Brand>
       <Navbar.Brand href="/ExperienceGuide">ExperienceGuide</Navbar.Brand>
+      <Navbar.Brand href="/Signup">Signup</Navbar.Brand>
+      <Navbar.Brand href="/Login">Login</Navbar.Brand>
     </Navbar>
   );
 };
