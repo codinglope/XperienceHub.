@@ -16,7 +16,6 @@ class Hero extends Component {
         <div className="hero-text">
           <h1>{this.props.h1}</h1>
           <h2>{this.props.h2}</h2>
-          <h3>{this.props.h3}</h3>
         </div>
       </div>
           )

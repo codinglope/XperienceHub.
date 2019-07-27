@@ -1,25 +1,18 @@
 import React from "react";
-import { Table, Alert } from "react-bootstrap";
+import { Table } from "react-bootstrap";
 import { getDuration, getDateHour } from "../../services/DateTimeFormating";
 
 const FlightsList = props => {
   return (
-    <div align="center" style={{position: "absolute", zIndex: 1, width: "100%"}}>
+    <div>
       <br />
-
       {props.inboundFlights.length > 0 && (
-        <Table
-          striped
-          bordered
-          hover
-          variant="dark"
-          style={{ width: "95%" }}
-          id="inboundTable"
-        >
+        <Table striped bordered hover variant="dark">
           <thead>
             <tr>
-              <th colSpan="7" class="bg-primary text-white">
-                Inbound Flights
+              <th>Inbound Flights</th>
+              <th colSpan="6" background-color="transparent">
+                {" "}
               </th>
             </tr>
           </thead>
@@ -117,22 +110,17 @@ const FlightsList = props => {
       )}
 
       <br />
-
-      {props.outboundFlights.length > 0 && (
-        <Table
-          striped
-          bordered
-          hover
-          variant="dark"
-          style={{ width: "95%" }}
-          id="outboundTable"
-        >
+      {props.inboundFlights.length > 0 && (
+        <Table striped bordered hover variant="dark">
           <thead>
             <tr>
-              <th colSpan="7" class="bg-primary text-white">
-                Outbound Flights
+              <th>Outbound Flights</th>
+              <th colSpan="6" background-color="transparent">
+                {" "}
               </th>
             </tr>
+          </thead>
+          <thead>
             <tr>
               <th>Duration</th>
               <th>Airline</th>
